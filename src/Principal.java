@@ -8,9 +8,7 @@ public class Principal {
         Tanque t3 = new Tanque(4, 6, 'O');
 
         //Mostramos la informacion de los tanques
-        System.out.println(t1);
-        System.out.println(t2);
-        System.out.println(t3);
+        Salida.printTanques(new Tanque[]{t1,t2,t3});
 
         //Realizamos diferentes funciones de los tanques
         t1.avanzar();
@@ -20,9 +18,7 @@ public class Principal {
         System.out.println("Moviendo tanques....................");
 
         //Volvemos a mostrar la informacion de los tanques
-        System.out.println(t1);
-        System.out.println(t2);
-        System.out.println(t3);
+        Salida.printTanques(new Tanque[]{t1,t2,t3});
     }
 
 }
